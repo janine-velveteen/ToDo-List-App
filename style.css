@@ -154,6 +154,14 @@ select {
   color: #fda085;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 932px) {
@@ -164,4 +172,5 @@ select {
     display: flex;
     flex-wrap: wrap;
   }
+
 }
